@@ -1,10 +1,10 @@
 {
-  "name": "dialogflow-fulfillment",
+  "name": "@arrivabeni/dialogflow-fulfillment",
   "description": "Dialogflow Fulfillment Library for Node.js",
   "main": "src/dialogflow-fulfillment.js",
   "version": "0.6.2",
   "license": "Apache-2.0",
-  "author": "Google Inc.",
+  "author": "Marcelo Vieira forked from Google Inc.",
   "directories": {
     "test": "test"
   },
@@ -25,6 +25,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dialogflow/dialogflow-fulfillment-nodejs.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@arrivabeni"
   },
   "bugs": {
     "url": "https://github.com/dialogflow/dialogflow-fulfillment-nodejs/issues"
